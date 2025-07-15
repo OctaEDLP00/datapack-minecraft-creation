@@ -1,11 +1,13 @@
 {
   "recommendations": [
-    "oran9eutan.mcmodel-viewer",
-    "levertion.mcjson",
-    "arcensoth.language-mcfunction",
-    "misodee.vscode-nbt",
-    "hans000.mc-json-viewer",
     "spgoding.datapack-language-server",
-    "superant.mc-dp-icons"
+    "superant.mc-dp-icons",
+    "levertion.mcjson",
+    "hans000.mc-json-viewer",
+    "oran9eutan.mcmodel-viewer",
+    "misodee.vscode-nbt",
+    "bierner.markdown-preview-github-styles",
+    "yzhang.markdown-all-in-one",
+    "arcensoth.language-mcfunction",
   ]
 }
