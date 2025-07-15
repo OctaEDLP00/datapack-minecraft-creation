@@ -1,0 +1,54 @@
+{
+  "description": {
+    "translate": "enchantment.smelting",
+    "fallback": "Smelting",
+    "color": "#008080"
+  },
+  "supported_items": [
+    "wooden_pickaxe",
+    "wooden_axe",
+    "wooden_sword",
+    "wooden_shovel",
+    "iron_pickaxe",
+    "iron_axe",
+    "iron_sword",
+    "iron_shovel",
+    "golden_pickaxe",
+    "golden_axe",
+    "golden_sword",
+    "golden_shovel",
+    "diamond_pickaxe",
+    "diamond_axe",
+    "diamond_sword",
+    "diamond_shovel",
+    "netherite_pickaxe",
+    "netherite_axe",
+    "netherite_sword",
+    "netherite_shovel"
+  ],
+  "exclusive_set": [
+    "minecraft:silk_touch"
+  ],
+  "weight": 2,
+  "max_level": 1,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 4,
+  "slots": [ "mainhand" ],
+  "effects": {
+    "hit_block": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "more_enchantments:smelting/smelt_drops"
+        }
+      }
+    ]
+  }
+}

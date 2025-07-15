@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Potion of Strength"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:63,Potion:\"minecraft:water\",CustomPotionEffects:[{Id:5,Duration:2147483647,ShowParticles:0b}],CustomPotionColor:9643043}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

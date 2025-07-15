@@ -1,0 +1,1 @@
+scoreboard players remove @e[tag=thCobweb] thTie 1

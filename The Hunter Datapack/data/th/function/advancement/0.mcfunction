@@ -1,0 +1,1 @@
+execute if entity @a[scores={thCreeper=10}] run advancement grant @a only th:th_dp/kill_10_creeper

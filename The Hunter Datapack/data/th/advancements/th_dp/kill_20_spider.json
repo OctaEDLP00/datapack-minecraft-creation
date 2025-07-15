@@ -1,0 +1,363 @@
+{
+  "parent": "th:th_dp/root",
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Id:[I;-169446824,-282898972,-1820308741,567689068],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ1OWFhNzhjYjdlOWI2Y2E2ZmVlNDEyMTMyOTA1OWRkNjhhZmRkYzBjOGI1M2E5MDZiNzk1Mzk5NGU4YTc2In19fQ=='}]}}}"
+		},
+		"title": "Kill 20 Spiders",
+		"description": "Kill 20 Spiders",
+    "frame":"task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"criteria": {
+    "kill_spider1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider7": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider8": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider9": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider10": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider11": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider12": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider13": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider14": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider15": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider16": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider17": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider18": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider19": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_spider20": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:spider"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_spider1"
+    ],
+    [
+      "kill_spider2"
+    ],
+    [
+      "kill_spider3"
+    ],
+    [
+      "kill_spider4"
+    ],
+    [
+      "kill_spider5"
+    ],
+    [
+      "kill_spider6"
+    ],
+    [
+      "kill_spider7"
+    ],
+    [
+      "kill_spider8"
+    ],
+    [
+      "kill_spider9"
+    ],
+    [
+      "kill_spider10"
+    ],
+    [
+      "kill_spider11"
+    ],
+    [
+      "kill_spider12"
+    ],
+    [
+      "kill_spider13"
+    ],
+    [
+      "kill_spider14"
+    ],
+    [
+      "kill_spider15"
+    ],
+    [
+      "kill_spider16"
+    ],
+    [
+      "kill_spider17"
+    ],
+    [
+      "kill_spider18"
+    ],
+    [
+      "kill_spider19"
+    ],
+    [
+      "kill_spider20"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "th:advancement_reward/glowing"
+    ]
+  }
+}

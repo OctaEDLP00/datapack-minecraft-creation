@@ -1,0 +1,278 @@
+{
+  "parent": "th:th_dp/root",
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Id:[I;1299042862,-642035940,-1374545902,-1381752512],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZiZGNlZWY3NzNkOTU5YjQ5ZGRkOTYxNWY0MjY5YzE3NmUyMzE1NGQ0NTc1MjY2NzQyOGRjNGUzZmQ0ZCJ9fX0='}]}}}"
+		},
+		"title": "Kill 15 Witchs",
+		"description": "Kill 15 Witchs",
+    "frame":"task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"criteria": {
+    "kill_witch1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:witch"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_witch2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:witch"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_witch3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:witch"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_witch4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:witch"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_witch5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:witch"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_witch6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:witch"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_witch7": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:witch"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_witch8": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:witch"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_witch9": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:witch"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_witch10": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:witch"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_witch11": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:witch"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_witch12": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:witch"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_witch13": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:witch"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_witch14": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:witch"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_witch15": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:witch"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    } 
+  },
+  "requirements": [
+    [
+      "kill_witch1"
+    ],
+    [
+      "kill_witch2"
+    ],
+    [
+      "kill_witch3"
+    ],
+    [
+      "kill_witch4"
+    ],
+    [
+      "kill_witch5"
+    ],
+    [
+      "kill_witch6"
+    ],
+    [
+      "kill_witch7"
+    ],
+    [
+      "kill_witch8"
+    ],
+    [
+      "kill_witch9"
+    ],
+    [
+      "kill_witch10"
+    ],
+    [
+      "kill_witch11"
+    ],
+    [
+      "kill_witch12"
+    ],
+    [
+      "kill_witch13"
+    ],
+    [
+      "kill_witch14"
+    ],
+    [
+      "kill_witch15"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "th:advancement_reward/luck"
+    ]
+  }
+}

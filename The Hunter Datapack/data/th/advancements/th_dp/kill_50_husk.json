@@ -1,0 +1,873 @@
+{
+  "parent": "th:th_dp/kill_50_pillager",
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Id:[I;-1687136239,-2033234824,-1271357766,-464884237],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBmZDhkODZlNzA1N2FhZTMzZjVkNzlkY2IwMzY4NWM4OGM4MTM3Y2ZjYjIzNDliYzg3NGI5Zjg3ZTkzNDI3NiJ9fX0='}]}}}"		
+    },
+		"title": "Kill 50 Husk",
+		"description": "Kill 50 Husk",
+    "frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"criteria": {
+    "kill_husk1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk7": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk8": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk9": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk10": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk11": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk12": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk13": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk14": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk15": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk16": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk17": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk18": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk19": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk20": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk21": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk22": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk23": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk24": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk25": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk26": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk27": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk28": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk29": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk30": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk31": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk32": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk33": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk34": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk35": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk36": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk37": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk38": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk39": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk40": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk41": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk42": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk43": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk44": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk45": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk46": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk47": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk48": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk49": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_husk50": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:husk"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_husk1"
+    ],
+    [
+      "kill_husk2"
+    ],
+    [
+      "kill_husk3"
+    ],
+    [
+      "kill_husk4"
+    ],
+    [
+      "kill_husk5"
+    ],
+    [
+      "kill_husk6"
+    ],
+    [
+      "kill_husk7"
+    ],
+    [
+      "kill_husk8"
+    ],
+    [
+      "kill_husk9"
+    ],
+    [
+      "kill_husk10"
+    ],
+    [
+      "kill_husk11"
+    ],
+    [
+      "kill_husk12"
+    ],
+    [
+      "kill_husk13"
+    ],
+    [
+      "kill_husk14"
+    ],
+    [
+      "kill_husk15"
+    ],
+    [
+      "kill_husk16"
+    ],
+    [
+      "kill_husk17"
+    ],
+    [
+      "kill_husk18"
+    ],
+    [
+      "kill_husk19"
+    ],
+    [
+      "kill_husk20"
+    ],
+    [
+      "kill_husk21"
+    ],
+    [
+      "kill_husk22"
+    ],
+    [
+      "kill_husk23"
+    ],
+    [
+      "kill_husk24"
+    ],
+    [
+      "kill_husk25"
+    ],
+    [
+      "kill_husk26"
+    ],
+    [
+      "kill_husk27"
+    ],
+    [
+      "kill_husk28"
+    ],
+    [
+      "kill_husk29"
+    ],
+    [
+      "kill_husk30"
+    ],
+    [
+      "kill_husk31"
+    ],
+    [
+      "kill_husk32"
+    ],
+    [
+      "kill_husk33"
+    ],
+    [
+      "kill_husk34"
+    ],
+    [
+      "kill_husk35"
+    ],
+    [
+      "kill_husk36"
+    ],
+    [
+      "kill_husk37"
+    ],
+    [
+      "kill_husk38"
+    ],
+    [
+      "kill_husk39"
+    ],
+    [
+      "kill_husk40"
+    ],
+    [
+      "kill_husk41"
+    ],
+    [
+      "kill_husk42"
+    ],
+    [
+      "kill_husk43"
+    ],
+    [
+      "kill_husk44"
+    ],
+    [
+      "kill_husk45"
+    ],
+    [
+      "kill_husk46"
+    ],
+    [
+      "kill_husk47"
+    ],
+    [
+      "kill_husk48"
+    ],
+    [
+      "kill_husk49"
+    ],
+    [
+      "kill_husk50"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "th:advancement_reward/jump_boost"
+    ]
+  }
+}

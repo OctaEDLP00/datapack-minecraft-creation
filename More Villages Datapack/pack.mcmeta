@@ -1,21 +1,18 @@
 {
   "pack": {
-    "pack_format": 38,
+    "pack_format": 81,
     "description": [
       {
         "text": "More",
-        "color": "",
-        "font": ""
+        "color": "#15cf3b"
       },
       {
         "text": "Villages",
-        "color": "",
-        "font": ""
+        "color": ""
       },
       {
         "text": "Datapack",
-        "color": "",
-        "font": ""
+        "color": ""
       }
     ]
   }

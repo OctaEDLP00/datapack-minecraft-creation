@@ -1,0 +1,449 @@
+{
+  "parent": "th:th_dp/root",
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Id:[I;-688364728,-380876788,-2051876373,-281997897],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTNhMjk1NTJiM2FiYWYzODgxNDViZThhOTA2N2U1ZWE0ZDFhZjk0NWU3YmY1ZTJjYTg1MmNlYzg3ZmQxYjE3YiJ9fX0='}]}}}"
+		},
+		"title": "Kill 25 Drowneds",
+		"description": "Kill 25 Drowneds",
+    "frame":"task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"criteria": {
+    "kill_drowned1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned7": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned8": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned9": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned10": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned11": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned12": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned13": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned14": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned15": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned16": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned17": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned18": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned19": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned20": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned21": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned22": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned23": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned24": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_drowned25": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:drowned"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_drowned1"
+    ],
+    [
+      "kill_drowned2"
+    ],
+    [
+      "kill_drowned3"
+    ],
+    [
+      "kill_drowned4"
+    ],
+    [
+      "kill_drowned5"
+    ],
+    [
+      "kill_drowned6"
+    ],
+    [
+      "kill_drowned7"
+    ],
+    [
+      "kill_drowned8"
+    ],
+    [
+      "kill_drowned9"
+    ],
+    [
+      "kill_drowned10"
+    ],
+    [
+      "kill_drowned11"
+    ],
+    [
+      "kill_drowned12"
+    ],
+    [
+      "kill_drowned13"
+    ],
+    [
+      "kill_drowned14"
+    ],
+    [
+      "kill_drowned15"
+    ],
+    [
+      "kill_drowned16"
+    ],
+    [
+      "kill_drowned17"
+    ],
+    [
+      "kill_drowned18"
+    ],
+    [
+      "kill_drowned19"
+    ],
+    [
+      "kill_drowned20"
+    ],
+    [
+      "kill_drowned21"
+    ],
+    [
+      "kill_drowned22"
+    ],
+    [
+      "kill_drowned23"
+    ],
+    [
+      "kill_drowned24"
+    ],
+    [
+      "kill_drowned25"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "th:advancement_reward/water_breathing"
+    ]
+  }
+}
+

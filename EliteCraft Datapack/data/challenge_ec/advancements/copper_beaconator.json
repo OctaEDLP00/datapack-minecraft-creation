@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:copper_block"
+		},
+		"title": "Copper Beaconator",
+		"description": " :( ",
+		"frame":"challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "challenge_ec:root",
+	"criteria": {
+		"copper_beaconator": {
+			"trigger" : "minecraft:construct_beacon",
+			"conditions": {
+				"level": 4
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

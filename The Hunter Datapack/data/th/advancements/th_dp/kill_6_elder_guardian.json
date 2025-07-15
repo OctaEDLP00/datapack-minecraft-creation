@@ -1,0 +1,125 @@
+{
+  "parent": "th:th_dp/root",
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Id:[I;-1120606883,-1963113518,-1427533147,570128633],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWE4MzlkODI1NmM4MWNmMWRiOGRhOGZmM2Y3YjgwY2NlMmY4NjViODBjOWY2NmFlYTUzNDBlNjk3ZWEzZTIxOSJ9fX0='}]}}}"
+		},
+		"title": "Kill 6 Elder Guardians",
+		"description": "Kill 6 Elder Guardians",
+    "frame":"task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"criteria": {
+    "kill_elder_guardian1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:wither"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_elder_guardian2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:wither"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_elder_guardian3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:wither"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_elder_guardian4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:wither"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_elder_guardian5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:wither"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_elder_guardian6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:wither"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_elder_guardian1"
+    ],
+    [
+      "kill_elder_guardian2"
+    ],
+    [
+      "kill_elder_guardian3"
+    ],
+    [
+      "kill_elder_guardian4"
+    ],
+    [
+      "kill_elder_guardian5"
+    ],
+    [
+      "kill_elder_guardian6"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "th:advancement_reward/haste"
+    ]
+  }
+}

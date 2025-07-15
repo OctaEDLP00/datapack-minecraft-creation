@@ -1,0 +1,24 @@
+{
+  "parent": "th:th_dp/root",
+	"display": {
+		"icon": {
+			"item": "minecraft:trident",
+      "nbt": "{Enchanments:[{}]}"
+		},
+		"title": "Kill all Mobs of this Datapack",
+		"description": "Kill all Mobs of this Datapack",
+    "frame":"task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+  "criteria": {
+    "kill_all_mobs_dp": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "kill_all_mobs_dp"
+    ]
+  ]
+}

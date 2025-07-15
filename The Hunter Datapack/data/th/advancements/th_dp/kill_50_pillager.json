@@ -1,0 +1,873 @@
+{
+  "parent": "th:th_dp/root",
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Id:[I;1742668003,1694190250,-1141382398,681093351],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZkNDk4M2UzMGIyNzdmMGI5N2I3ZDhjNmY4YTAzNTgyMDFiZTIyNmEyYzU1ZTJhMGQzOTBjMzk0MmVjMmRmNSJ9fX0='}]}}}"
+		},
+		"title": "Kill 50 Pillagers",
+		"description": "Kill 50 Pillagers",
+    "frame":"task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"criteria": {
+    "kill_pillager1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager7": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager8": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager9": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager10": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager11": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager12": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager13": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager14": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager15": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager16": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager17": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager18": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager19": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager20": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager21": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager22": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager23": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager24": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager25": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager26": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager27": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager28": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager29": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager30": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager31": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager32": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager33": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager34": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager35": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager36": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager37": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager38": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager39": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager40": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager41": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager42": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager43": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager44": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager45": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager46": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager47": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager48": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager49": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_pillager50": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:pillager"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_pillager1"
+    ],
+    [
+      "kill_pillager2"
+    ],
+    [
+      "kill_pillager3"
+    ],
+    [
+      "kill_pillager4"
+    ],
+    [
+      "kill_pillager5"
+    ],
+    [
+      "kill_pillager6"
+    ],
+    [
+      "kill_pillager7"
+    ],
+    [
+      "kill_pillager8"
+    ],
+    [
+      "kill_pillager9"
+    ],
+    [
+      "kill_pillager10"
+    ],
+    [
+      "kill_pillager11"
+    ],
+    [
+      "kill_pillager12"
+    ],
+    [
+      "kill_pillager13"
+    ],
+    [
+      "kill_pillager14"
+    ],
+    [
+      "kill_pillager15"
+    ],
+    [
+      "kill_pillager16"
+    ],
+    [
+      "kill_pillager17"
+    ],
+    [
+      "kill_pillager18"
+    ],
+    [
+      "kill_pillager19"
+    ],
+    [
+      "kill_pillager20"
+    ],
+    [
+      "kill_pillager21"
+    ],
+    [
+      "kill_pillager22"
+    ],
+    [
+      "kill_pillager23"
+    ],
+    [
+      "kill_pillager24"
+    ],
+    [
+      "kill_pillager25"
+    ],
+    [
+      "kill_pillager26"
+    ],
+    [
+      "kill_pillager27"
+    ],
+    [
+      "kill_pillager28"
+    ],
+    [
+      "kill_pillager29"
+    ],
+    [
+      "kill_pillager30"
+    ],
+    [
+      "kill_pillager31"
+    ],
+    [
+      "kill_pillager32"
+    ],
+    [
+      "kill_pillager33"
+    ],
+    [
+      "kill_pillager34"
+    ],
+    [
+      "kill_pillager35"
+    ],
+    [
+      "kill_pillager36"
+    ],
+    [
+      "kill_pillager37"
+    ],
+    [
+      "kill_pillager38"
+    ],
+    [
+      "kill_pillager39"
+    ],
+    [
+      "kill_pillager40"
+    ],
+    [
+      "kill_pillager41"
+    ],
+    [
+      "kill_pillager42"
+    ],
+    [
+      "kill_pillager43"
+    ],
+    [
+      "kill_pillager44"
+    ],
+    [
+      "kill_pillager45"
+    ],
+    [
+      "kill_pillager46"
+    ],
+    [
+      "kill_pillager47"
+    ],
+    [
+      "kill_pillager48"
+    ],
+    [
+      "kill_pillager49"
+    ],
+    [
+      "kill_pillager50"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "th:advancement_reward/hero_of_the_village"
+    ]
+  }
+}

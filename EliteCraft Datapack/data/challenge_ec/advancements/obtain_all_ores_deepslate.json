@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:deepslate_emerald_ore"
+		},
+		"title":"Deepslate Ores",
+		"description": "Obtain all ores of deepslate",
+		"frame":"challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "challenge_ec:root",
+	"criteria": {
+		"all_ores_deepslate": {
+			"trigger" : "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [ "minecraft:deepslate_coal_ore"]
+					},
+					{
+						"items": [ "minecraft:deepslate_iron_ore" ]
+					},
+					{
+						"items" : [ "minecraft:deepslate_diamond_ore" ]
+					},
+					{
+						"items": [ "minecraft:deepslate_gold_ore" ]
+					},
+					{
+						"items": [ "minecraft:deepslate_emerald_ore" ]
+					},
+					{
+						"items": [ "minecraft:deepslate_lapis_ore" ]
+					},
+					{
+						"items": [ "minecraft:deepslate_copper_ore" ]
+					},
+					{
+						"items": [ "minecraft:deepslate_redstone_ore" ]
+					}
+				]
+			}
+		}
+	}
+}

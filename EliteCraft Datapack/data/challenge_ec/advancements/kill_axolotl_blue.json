@@ -1,0 +1,34 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:axolotl_bucket"
+		},
+		"title": "Kill a axolotl Blue",
+		"description": "Hey! What are you doing??? :(",
+		"frame":"challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"parent": "challenge_ec:root",
+	"criteria": {
+		"axolotl": {
+			"trigger" : "player_killed_entity",
+			"conditions": {
+				"entity": [
+					{
+						"condition": "minecraft:entity_properties",
+						"predicate": {
+							"type": "minecraft:axolotl",
+							"nbt": "{Variant:4}"
+						},
+						"entity": "this"
+					}
+				]	
+			}
+		}
+	},
+	"rewards": {
+		"experience": 100
+	}
+}

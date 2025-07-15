@@ -1,0 +1,193 @@
+{
+  "parent": "th:th_dp/root",
+	"display": {
+		"icon": {
+			"item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Id:[I;1097891971,1744126809,-1156713630,348757981],Properties:{textures:[{Value:'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODdjNjNkOTA3OWI3NWY5MDk3OTc4M2NmMDdjYTcyNmY2NWUzMDI0NDE1YWM2MjJhN2M5MDZjZDI1MDgyYWYifX19'}]}}}"
+		},
+		"title": "Kill 10 Creepers",
+		"description": "Kill 10 Creepers",
+    "frame":"task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"criteria": {
+    "kill_creeper1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:creeper"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_creeper2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:creeper"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_creeper3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:creeper"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_creeper4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:creeper"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_creeper5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:creeper"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_creeper6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:creeper"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_creeper7": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:creeper"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_creeper8": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:creeper"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_creeper9": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:creeper"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    },
+    "kill_creeper10": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:creeper"
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kill_creeper1"
+    ],
+    [
+      "kill_creeper2"
+    ],
+    [
+      "kill_creeper3"
+    ],
+    [
+      "kill_creeper4"
+    ],
+    [
+      "kill_creeper5"
+    ],
+    [
+      "kill_creeper6"
+    ],
+    [
+      "kill_creeper7"
+    ],
+    [
+      "kill_creeper8"
+    ],
+    [
+      "kill_creeper9"
+    ],
+    [
+      "kill_creeper10"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "th:advancement_reward/speed"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+scoreboard players remove @e[tag=thBullet] thGun 1

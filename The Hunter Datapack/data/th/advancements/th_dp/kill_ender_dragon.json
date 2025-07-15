@@ -1,0 +1,39 @@
+{
+  "parent": "th:th_dp/root",
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_head"
+		},
+		"title": "Kill Ender Dragon",
+		"description": "Kill Ender Dragon",
+    "frame":"task",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"criteria": {
+    "kill_dragon": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "type": "minecraft:ender_dragon"
+            },
+            "entity": "this"
+          }
+        ]
+      }    
+    }
+  },
+  "requirements": [
+    [
+      "kill_dragon"
+    ]
+  ],
+  "rewards": {
+    "loot": [
+      "th:advancement_reward/saturation"
+    ]
+  }
+}
