@@ -5,7 +5,7 @@ Copyright © 2025  MrOctaMC
 
 1. PERMISOS
    Se concede gratuitamente y de manera irrevocable a cualquier
-   persona que obtenga una copia del Datapack (el “Usuario”) el
+   persona que obtenga una copia del Datapack (el “MrOctaMC”) el
    derecho a:
      a) Usar el Datapack en servidores, mundos individuales,
         videos, directos y otros contenidos, con o sin fines

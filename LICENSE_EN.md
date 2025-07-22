@@ -6,7 +6,7 @@ Copyright © 2025  MrOctaMC
 1.PERMISSIONS
    Permission is hereby granted, free of charge and
    irrevocably, to any person obtaining a copy of the
-   Datapack (the “User”), to:
+   Datapack (the “MrOctaMC”), to:
      a) Use the Datapack in servers, singleplayer worlds,
         videos, livestreams, or other media, for commercial or
         non-commercial purposes.
